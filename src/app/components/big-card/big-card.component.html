@@ -1,11 +1,15 @@
 <div class="container__big-card">
   <div class="big-card__photo">
-    <img src="https://vidafullstack.com.br/wp-content/uploads/2023/12/angular.jpg" alt="" height="200px" srcset="">
+    <img src="{{ photoCover }}" alt="" height="200px" srcset="">
   </div>
   <div class="big-card__title">
-    <a href="#" target="_blank"><h1>Saiu a nova versão do Angular!</h1></a>
+    <a href="#" target="_blank">
+      <h1>{{cardTitle}}</h1>
+    </a>
   </div>
   <div class="big-card__description">
-    <a href="#"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat iste consectetur praesentium, aspernatur assumenda amet impedit debitis nihil nobis! Voluptates, inventore error. Distinctio sit corrupti voluptatum similique commodi odio quia?</p></a>
+    <a href="#">
+      <p>{{ cardDescription }}</p>
+    </a>
   </div>
 </div>
