@@ -1,24 +1,36 @@
 .container__content {
-  border: 2px solid white;
-  width: 100%;
+  max-width: 960px;
   height: 100%;
   margin-top: 20px ;
   display: flex;
+  margin-left: auto;
+  margin-right: auto;
   flex-direction: column;
   align-items: center;
 }
 
 .content__cover > img {
-  border: 3px solid rgb(144, 144, 144);
+  border-radius: 10px;
   width: 500px;
   min-width: 500px;
   height: 300px;
 }
 
+.content__title {
+  margin-top: 20px;
+}
+
 .content__description {
-  margin-top: 15px;
+  margin-top: 20px;
 }
 
 .content__description > p {
   color: rgb(198, 197, 197);
+  line-height: 20px;
+  text-align: justify;
+}
+
+.content__description > p::before {
+  content: "";
+  margin-right: 20px;
 }

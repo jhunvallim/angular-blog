@@ -6,3 +6,9 @@
 .container__menu-bar > ul > li {
   margin-right: 20px;
 }
+
+.container__menu-bar > ul > li:hover {
+  transform: scale(1.2);
+  filter: brightness(1.2);
+  text-decoration: underline;
+}
